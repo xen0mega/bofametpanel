@@ -3,9 +3,10 @@
     "password": "11223314",
     "port": 8000,
     "secret_key": "fc9fcf668b56857fab266a2a48ac553ee6d6b8ff3b8f74852727de4a1b478daa",
-    "telegram_bot_token": null,
-    "telegram_chat_id": null,
+    "telegram_bot_token": 8322699712:AAGmNcrCfX0OPj6f0lZRAn7VH1tNNziJa-4,
+    "telegram_chat_id": 6968578606,
     "telegram_notifications_enabled": false,
     "server_public_ip": "bofametpanel-1.onrender.com"
 
 }
+
