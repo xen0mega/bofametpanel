@@ -1,0 +1,10 @@
+{
+    "username": "da3rtex",
+    "password": "11223314",
+    "port": 4289,
+    "secret_key": "fc9fcf668b56857fab266a2a48ac553ee6d6b8ff3b8f74852727de4a1b478daa",
+    "telegram_bot_token": null,
+    "telegram_chat_id": null,
+    "telegram_notifications_enabled": false,
+    "server_public_ip": "212.112.119.193"
+}

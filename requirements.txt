@@ -1,0 +1,8 @@
+flask
+gunicorn
+fastapi
+uvicorn
+python-multipart
+aiofiles
+itsdangerous
+jinja2
