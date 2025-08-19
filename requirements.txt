@@ -5,4 +5,5 @@ uvicorn
 python-multipart
 aiofiles
 itsdangerous
+pip install httpx
 jinja2
