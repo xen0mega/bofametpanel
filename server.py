@@ -454,17 +454,8 @@ async def delete_log_entry(log_id: int, log_folder_name: str):
     return {"message": "Log entry and associated folder deleted successfully!"}
 
 if __name__ == '__main__':
-    load_server_config() 
-    
-    app.SECRET_KEY = GLOBAL_SECRET_KEY
-    app.add_middleware(SessionMiddleware, secret_key=app.SECRET_KEY)
-    
-    app_config['PORT'] = LISTEN_PORT 
-
-    init_db() 
-    
-    import asyncio
-    asyncio.run(get_external_ip_address())
-
-    print(f"Starting server on http://0.0.0.0:{app_config['PORT']}")
-    uvicorn.run(app, host='0.0.0.0', port=app_config['PORT']) 
+    load_server_config()
+    init_db()
+    import uvicorn, os
+    port = int(os.environ.get("PORT") or LISTEN_PORT or 8000)
+    uvicorn.run(app, host="0.0.0.0", port=port)
